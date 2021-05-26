@@ -1,0 +1,46 @@
+baseURL: "https://incub4t0r.github.io/"
+languageCode: "en-us"
+title: "foursight"
+theme: "PaperMod"
+publishdir: "incub4t0r.github.io"
+
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                # - name: Archive
+                #   url: archives
+                #   weight: 1
+                # - name: Search
+                #   url: search/
+                #   weight: 2
+                - name: Tags
+                  url: tags/
+                  weight: 3
+                - name: Categories
+                  url: categories/
+                  weight: 4
+                - name: About me
+                  url: aboutme
+                  weight: 5
+
+params:
+    homeInfoParams:
+        Title: "Hello World! "
+        Content: >
+            Welcome to f0ur3y3s' mess of a website!
+
+            - I'll be posting ctf writeups, projects, and repo overviews 
+        # imageUrl: "<image link>" # optional
+            
+    socialIcons:
+        - name: github
+          url: "https://github.com/incub4t0r/"
+        
+    # label:
+    #     text: ""
+    #     icon: /static/f0ur3y3s.png
+    #     iconHeight: 35
