@@ -4,13 +4,13 @@ title: Projects
 showToc: true
 ---
 
-
 # Quarantine 2021 Projects
 
 In 2021, we continue to physically distance ourselves... but that just leaves more time for more projects!
 
 * [Updating my Fire Tablet Clock](#Malga)
 * [Focus on me!](#Focus)
+* [SeQueLservers](#SeQueLservers)
 
 ## Malga
 
@@ -36,7 +36,16 @@ I wanted to use the Fire Tablet application I made last year on different device
 To further dive into web development with very simple transitions and javascript, I created [amifocused?](https://amifocused.000webhostapp.com/). This website serves one purpose; to see if you are focused on the site.
 
 
+## SeQueLservers
 
+| Components used | Purpose | 
+| - | - |
+| Python, Javascript, HTML, CSS | An aesthetic page! | 
+| Docker | Local machine hosting |
+
+And [here's](https://github.com/incub4t0r/SeQueLservers) the LAMP stack project in docker I was talking about last year!
+
+As I said last year, the purpose of this was to learn docker and get introduced to LAMP stacks. This specific LAMP stack holds a surprise, SQL injection vulnerabilities! This can be used to teach about the basics of SQLi.
 
 ------
 # Quarantine 2020 Projects
@@ -94,8 +103,10 @@ Mechanical keyboards fascinate me, as well as ergonomic design, so I decided to 
 
 ## LAMP Stack in Docker
 
-In preparations for SIGSAC lessons (shameless plug, go check out West Point SIGSAC), I was tasked with creating an SQL injection vulnerable login. I was also learning docker at the time, so I thought, "Should be fairly easy to setup a LAMP stack in docker, why not try it for sh*ts and giggles," and so I did. To be honest, I do think this method of creating a vulnerable web server is great at moving between host machines with the ability to fix any issues with a simple reboot.\
-I currently don't have a finished writeup for this project yet, but I will try to get it completed during the academic year. 
+In preparations for SIGSAC lessons (shameless plug, go check out West Point SIGSAC), I was tasked with creating an SQL injection vulnerable login. I was also learning docker at the time, so I thought, "Should be fairly easy to setup a LAMP stack in docker, why not try it for sh*ts and giggles," and so I did. To be honest, I do think this method of creating a vulnerable web server is great at moving between host machines with the ability to fix any issues with a simple reboot.
+
+~~I currently don't have a finished writeup for this project yet, but I will try to get it completed during the academic year.~~ 
+
 
 # Regular Projects
 
