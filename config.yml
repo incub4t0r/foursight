@@ -4,6 +4,8 @@ title: "foursight"
 theme: "PaperMod"
 publishdir: "incub4t0r.github.io"
 
+enableInlineShortcodes: true
+enableEmoji: true
 
 languages:
     en:
@@ -19,27 +21,36 @@ languages:
                 #   weight: 2
                 - name: Tags
                   url: tags/
-                  weight: 3
+                  weight: 4
                 - name: Categories
                   url: categories/
-                  weight: 4
+                  weight: 3
                 - name: About me
                   url: aboutme
                   weight: 5
+taxonomies:
+    category: categories
+    tag: tags
+    # series: series
 
 params:
+    # env: production # to enable google analytics, opengraph, twitter-cards and schema.
     homeInfoParams:
-        Title: "Hello World! "
+        Title: "hello world! 👋 "
         Content: >
-            Welcome to f0ur3y3s' mess of a website!
-
-            - I'll be posting ctf writeups, projects, and repo overviews 
-        # imageUrl: "<image link>" # optional
+            This is foursight, f0ur3y3s' website.\
+            
+            I post project writeups and ctf writeups from time to time.
+        # imageUrl: "<imageposting link>" # optional
             
     socialIcons:
         - name: github
           url: "https://github.com/incub4t0r/"
-        
+        - name: hackthebox
+          url: "https://app.hackthebox.eu/profile/269039"
+
+    ShowShareButtons: true
+
     # label:
     #     text: ""
     #     icon: /static/f0ur3y3s.png

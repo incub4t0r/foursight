@@ -1,20 +1,15 @@
 ---
-title: "Malga"
+title: "malga"
 date: 2020-12-30T17:05:44-04:00
 draft: false
 showToc: true
 description: "A simple weather web app"
+tags: ["html","css","javascript","flask","python"]
 ---
 
-<!-- 
----
-layout: post
-title: malga
-subtitle: 
-cover-img: /assets/img/path.jpg
-tags: [python, flask, html, css, javascript]
-published: true
---- -->
+![main page](/projects/malga.jpg)
+<!-- <img src="/malga.jpg" style="border-radius:50%"> -->
+<!-- <img src="/malga.jpg" alt="demo" class="img-responsive"> -->
 
 ## TL;DR 
 
@@ -24,7 +19,7 @@ Had an old Fire Tablet laying around, repurposed it as a [web weather app](http:
 
 Everyday, too much technology is thrown out to be collected in landfills around the world. Even if it's just me, I wanted to take part in reducing the landfill, device by device.
 
-## Take me through the journey
+## Development
 
 **Key points**
 - Has to be responsive to multiple device screens
@@ -38,11 +33,11 @@ Everyday, too much technology is thrown out to be collected in landfills around 
 - Show time,date > clock.js 
 - Get weather every 30 minutes and update the page > weatherballoon.js
 
-## So show me what it looks like
+## The Final Result
 
 All the code (except the .env variables) can be viewed [here](https://github.com/incub4t0r/malga) in my github repo. This was an exciting first dive into javascript, html, and css, and I can't wait to spend some more time learning everything better!
 
-## **What did I learn?**
+## What did I learn?
 - Flask
 - Javascript
 - css styling
