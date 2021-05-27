@@ -5,6 +5,8 @@ draft: false
 showToc: true
 description: "My solution to the All Your Base Are Belong To Us challenge on ACICTF"
 tags: ["acictf", "python"]
+categories: ["ctf"]
+
 ---
 
 

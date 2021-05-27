@@ -5,6 +5,7 @@ draft: false
 showToc: true
 description: "Image decryption by bruteforce"
 tags: ["angstromCTF", "python"]
+categories: ["CTF"]
 ---
 <!-- ---
 layout: post

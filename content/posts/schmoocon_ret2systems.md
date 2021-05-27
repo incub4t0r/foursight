@@ -5,6 +5,7 @@ draft: false
 showToc: true
 description: "Ret2Systems Binary Exploitation Challenge"
 tags: ["binex"]
+categories: ["ctf"]
 ---
 <!-- ---
 layout: post

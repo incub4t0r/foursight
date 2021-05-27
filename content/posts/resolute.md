@@ -5,6 +5,7 @@ draft: false
 showToc: true
 description: "My solve to the Resolute machine on hackthebox"
 tags: ["htb"]
+categories: ["htb"]
 ---
 
 <!-- ---

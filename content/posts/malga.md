@@ -5,6 +5,7 @@ draft: false
 showToc: true
 description: "A simple weather web app"
 tags: ["html","css","javascript","flask","python"]
+categories: ["project"]
 ---
 
 ![main page](/projects/malga.jpg)

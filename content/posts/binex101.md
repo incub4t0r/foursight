@@ -5,6 +5,8 @@ draft: false
 showToc: true
 description: "My solution to the Binary Exploitation 101 challenge on ACICTF"
 tags: ["acictf", "c"]
+categories: ["ctf"]
+
 ---
 
 Only a 50 point problem but I really enjoyed the concepts of C programming vulnerabilities and the math behind it.
