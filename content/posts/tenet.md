@@ -17,7 +17,7 @@ Another medium level box for hackthebox! As of 27MAY2021, this box is still live
 
 User: nmap, enumerate website, found .bak files, created custom php serialization script to pop a reverse shell as www-data. Horizontal movement was achieved by finding user `neil`'s password in a wordpress configuration file.
 
-Root: 
+Root: look at sudo privileges, then add ssh key with bash script. Win the race.
 
 ## User
 
