@@ -3,7 +3,7 @@ title: "Resolute - HackTheBox"
 date: 2020-06-13T17:05:44-04:00
 draft: false
 showToc: true
-description: "My solve to the Resolute machine on hackthebox"
+description: "My solve to the Resolute machine on HackTheBox"
 tags: ["htb"]
 categories: ["htb"]
 ---
@@ -22,14 +22,14 @@ My first medium level box for hackthebox! And my first writeup for hackthebox.
 
 ## TL;DR
 
-User: nmap, use enum4linux to find a user password and possible usernames, use hydra to test usernames with password, use evil-winrm to gain access and cat flag.\
+User: nmap, use enum4linux to find a user password and possible usernames, use hydra to test usernames with password, use evil-winrm to gain access and cat flag.
 
 Root: found hidden files, found another user + password, used exploit guide on dnsadmins to gain root privileges.
 
 
-## **User**
+## User
 
-### **Getting started**
+### Getting started
 
 As always, I began with an nmap scan which returned the following:
 ```
@@ -176,7 +176,7 @@ And success! The username `melanie` is valid with the password `Welcome123!`
 
 ---
 
-### **Gaining access**
+### Gaining access
 
 I was recommended the tool of evil-winrm from the hackthebox forums, which allowed me to connect to the box easily. 
 ```
@@ -190,7 +190,7 @@ $ cat user.txt
 
 ---
 
-## **Root flag**
+## Root
 
 Approaching the root flag is always a trivial task. I navigated around for a while, attempting to use `ls -a` and `ls -l`, but was told to use `ls -hidden` instead. I kept on navigating through every directory while using `ls -hidden` and found `PSTranscript` in home.\
 Within the `PSTranscript` directory, was another directory called `20191203`, which contained `PowerShell_transcript.RESOLUTE.OJuoBGhU.20191203063201.txt` as file
@@ -235,7 +235,7 @@ MEGABANK\DnsAdmins                         Alias            S-1-5-21-1392959593-
 A quick google search on DnsAdmins provided a well-written exploit guide, through [this](https://medium.com/techzap/dns-admin-privesc-in-active-directory-ad-windows-ecc7ed5a21a2)
  
 
-### **Creating our payload and using it**
+### Creating our payload and using it
 
 For the privesc payload, I used msfvenom as outlined in the exploit guide to create my payload. The dll file can be created with the following command:
 
@@ -267,7 +267,7 @@ This should start the reverse shell back to our listener, providing us root acce
 
 Navigate to the root desktop, and the root.txt should be there.
 
-## **What did I learn?**
+## What did I learn?
 - enum4linux
 - How to use evil-winrm
 - How to use impacket to host a file on a server
