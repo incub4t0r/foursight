@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>binex on foursight</title>
+    <link>https://incub4t0r.github.io/tags/binex/</link>
+    <description>Recent content in binex on foursight</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Apr 2020 17:05:44 -0400</lastBuildDate><atom:link href="https://incub4t0r.github.io/tags/binex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Binex at ShmooCon</title>
+      <link>https://incub4t0r.github.io/posts/schmoocon_ret2systems/</link>
+      <pubDate>Thu, 30 Apr 2020 17:05:44 -0400</pubDate>
+      
+      <guid>https://incub4t0r.github.io/posts/schmoocon_ret2systems/</guid>
+      <description>At ShmooCon 2020, RET2 Systems was hosting a challenge where they had prototype waterbottles held within a laser system with alarms, run off of a Raspberry Pi. The goal was to access the Raspberry Pi, disable the lasers and alarms, all within their provided Wargames environment.
+Provided with the disassembly, data, source, and python script to run an interactive response, you were left to your own devices to figure out a way to run</description>
+    </item>
+    
+  </channel>
+</rss>

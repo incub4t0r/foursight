@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>c on foursight</title>
+    <link>https://incub4t0r.github.io/tags/c/</link>
+    <description>Recent content in c on foursight</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 May 2020 17:05:44 -0400</lastBuildDate><atom:link href="https://incub4t0r.github.io/tags/c/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Binex 101</title>
+      <link>https://incub4t0r.github.io/posts/binex101/</link>
+      <pubDate>Sun, 03 May 2020 17:05:44 -0400</pubDate>
+      
+      <guid>https://incub4t0r.github.io/posts/binex101/</guid>
+      <description>Only a 50 point problem but I really enjoyed the concepts of C programming vulnerabilities and the math behind it.
+TL;DR Source code outlined vulnerability of integer overflow, calculated numbers to put into program to return -1 and got flag.
+Breaking it down As with any challenge, I started with reading the source code provided, which turned out to be a good idea and a good hint provided.
+The source code given outlines the integer vulnerability of C programming, where once a stored integer passes a certain max value (2147483647), then the number will start to equal negative numbers.</description>
+    </item>
+    
+  </channel>
+</rss>
