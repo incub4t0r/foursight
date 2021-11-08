@@ -1,45 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>python on foursight</title>
-    <link>https://incub4t0r.github.io/tags/python/</link>
-    <description>Recent content in python on foursight</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 30 Dec 2020 17:05:44 -0400</lastBuildDate><atom:link href="https://incub4t0r.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>malga</title>
-      <link>https://incub4t0r.github.io/posts/malga/</link>
-      <pubDate>Wed, 30 Dec 2020 17:05:44 -0400</pubDate>
-      
-      <guid>https://incub4t0r.github.io/posts/malga/</guid>
-      <description>TL;DR Had an old Fire Tablet laying around, repurposed it as a web weather app display.
-But why? Everyday, too much technology is thrown out to be collected in landfills around the world. Even if it&amp;rsquo;s just me, I wanted to take part in reducing the landfill, device by device.
-Development Key points
- Has to be responsive to multiple device screens Has to show time, date, and weather  APIs used</description>
-    </item>
-    
-    <item>
-      <title>All Your Base Are Belong To Us</title>
-      <link>https://incub4t0r.github.io/posts/allyourbasebelongtous/</link>
-      <pubDate>Sat, 13 Jun 2020 17:05:44 -0400</pubDate>
-      
-      <guid>https://incub4t0r.github.io/posts/allyourbasebelongtous/</guid>
-      <description>This problem cost me 5 years of my life. It shouldn&amp;rsquo;t have been this hard, but here we go.
-TL;DR When you netcat to the provided web address, you are given this output.
- This program is going to ask you to convert among 6 different bases a total of 5 times. Each question is placed inside of lines delimited by 78&#39;-&#39; characters. The first line of each question indicates the base we aregiving to you as well as the base we expect the result in and looks like:[src_base] -&amp;gt; [answer base]The next line of the question is the source text that we want you to convertinto the new base.</description>
-    </item>
-    
-    <item>
-      <title>angstromCTF - Image Encryption</title>
-      <link>https://incub4t0r.github.io/posts/angstromimageencryption/</link>
-      <pubDate>Fri, 01 May 2020 17:05:44 -0400</pubDate>
-      
-      <guid>https://incub4t0r.github.io/posts/angstromimageencryption/</guid>
-      <description>This was a fun one, it required me to annotate the source code and figure out a decryption method for the given picture.
-TL;DR The file image-encryption.py is opening a target image file, in this case, img.png.
-The program then creates an array of the pixels that the image contains, then parses through each pixel. Upon arriving at each pixel, the program then stores into a variable what is assumably the RGB values of each pixel.</description>
-    </item>
-    
-  </channel>
-</rss>
